@@ -4,16 +4,16 @@
     "captureLogs": "false",
     "logentriesToken": "",
     "elasticsearchConfig": {
-      "host": "http://localhost:9200",
+      "host": "http://192.168.99.100:9200",
       "apiVersion": "2.3",
       "indexName": "projects_test",
       "docType": "projectV4",
       "timelineIndexName": "timelines_test",
       "timelineDocType": "timelineV4"
     },
-    "rabbitmqUrl": "amqp://localhost:5672",
+    "rabbitmqUrl": "amqp://192.168.99.100:5672",
     "dbConfig": {
-        "masterUrl": "postgres://coder:mysecretpassword@localhost:5432/projectsdb_test",
+        "masterUrl": "postgres://coder:mysecretpassword@192.168.99.100:5432/projectsdb_test",
         "maxPoolSize": 50,
         "minPoolSize": 4,
         "idleTimeout": 1000
